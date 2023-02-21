@@ -1,0 +1,134 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  width: 300px;
+
+  /* padding: 10px; */
+  margin: 20px auto;
+
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+}
+
+.display {
+  color: #fff;
+  background-color: #858693;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+
+  /* margin-bottom: 10px; */
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  /* padding: 10px; */
+}
+
+button {
+  padding: 20px;
+  border: 0.1px solid #858693;
+}
+
+.button-number {
+  color: #000;
+
+  /* background-color: #E0E0E0; */
+  font-size: 1em;
+  font-weight: bold;
+
+  /* padding: 10px; */
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-number:hover {
+  background-color: #444;
+}
+
+.button-zero {
+  width: 64%;
+}
+
+.button-operator {
+  color: #000;
+  background-color: #f5913e;
+  font-size: 1em;
+  font-weight: bold;
+
+  /* padding: 10px; */
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+
+  /* margin-bottom: 10px; */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-operator:hover {
+  background-color: #de6c0f;
+}
+
+.button-clear {
+  font-size: 1em;
+  font-weight: bold;
+
+  /* padding: 10px; */
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-clear:hover {
+  background-color: #b3a2a2;
+}
+
+.button-sign {
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+
+  /* padding: 10px; */
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-sign:hover {
+  background-color: #555;
+}
+
+.button-percent {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  /* padding: 10px; */
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-percent:hover {
+  background-color: #555;
+}
+
+.button-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* width: 100%; */
+}
