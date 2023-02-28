@@ -1,3 +1,8 @@
+.calculator-page {
+  color: #fff;
+  text-align: center;
+}
+
 .calculator {
   display: flex;
   flex-direction: column;
@@ -5,11 +10,7 @@
   align-items: center;
   background-color: #e0e0e0;
   width: 300px;
-
-  /* padding: 10px; */
   margin: 20px auto;
-
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
 }
 
 .display {
@@ -20,16 +21,12 @@
   text-align: right;
   padding: 10px 0;
   width: 100%;
-
-  /* margin-bottom: 10px; */
 }
 
 .button-row {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
-  /* padding: 10px; */
 }
 
 button {
@@ -39,12 +36,8 @@ button {
 
 .button-number {
   color: #000;
-
-  /* background-color: #E0E0E0; */
   font-size: 1em;
   font-weight: bold;
-
-  /* padding: 10px; */
   width: 30%;
   text-align: center;
   cursor: pointer;
@@ -64,13 +57,9 @@ button {
   background-color: #f5913e;
   font-size: 1em;
   font-weight: bold;
-
-  /* padding: 10px; */
   width: 30%;
   text-align: center;
   cursor: pointer;
-
-  /* margin-bottom: 10px; */
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -81,8 +70,6 @@ button {
 .button-clear {
   font-size: 1em;
   font-weight: bold;
-
-  /* padding: 10px; */
   width: 30%;
   text-align: center;
   cursor: pointer;
@@ -97,8 +84,6 @@ button {
   color: #000;
   font-size: 1em;
   font-weight: bold;
-
-  /* padding: 10px; */
   width: 30%;
   text-align: center;
   cursor: pointer;
@@ -113,8 +98,6 @@ button {
   color: #000;
   font-size: 1.5em;
   font-weight: bold;
-
-  /* padding: 10px; */
   width: 30%;
   text-align: center;
   cursor: pointer;
@@ -129,6 +112,4 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  /* width: 100%; */
 }
