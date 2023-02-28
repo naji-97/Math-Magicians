@@ -113,3 +113,8 @@ button {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.title {
+  margin: 10px 20px;
+  color: #fff;
+}
